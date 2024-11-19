@@ -1,0 +1,2 @@
+1;Treinador;Arondir;6000.0
+2;Desenvolvedor;Aron Freire Barbosa;6000.0
