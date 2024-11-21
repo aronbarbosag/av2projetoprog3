@@ -12,11 +12,11 @@ public class Gerente extends Funcionario implements Gerencia {
 
     @Override
     public void organizarEquipe() {
-        // Implementar lógica
+        System.out.println(nome + " está organizando a equipe.");
     }
 
     @Override
     public void conduzirReunioes() {
-        // Implementar lógica
+        System.out.println(nome + " está conduzindo uma reunião.");
     }
 }
