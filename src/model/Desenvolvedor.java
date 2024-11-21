@@ -12,11 +12,11 @@ public class Desenvolvedor extends Funcionario implements Desenvolve {
 
     @Override
     public void codar() {
-        // Implementar lógica
+        System.out.println(nome + " está codando.");
     }
 
     @Override
     public void resolverProblemas() {
-        // Implementar lógica
+        System.out.println(nome + " está resolvendo problemas técnicos.");
     }
 }

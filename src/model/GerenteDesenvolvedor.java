@@ -12,21 +12,21 @@ public class GerenteDesenvolvedor extends Funcionario implements Gerencia, Desen
 
     @Override
     public void codar() {
-        // Implementar lógica
+        System.out.println(nome + " está codando como desenvolvedor.");
     }
 
     @Override
     public void resolverProblemas() {
-        // Implementar lógica
+        System.out.println(nome + " está resolvendo problemas técnicos.");
     }
 
     @Override
     public void organizarEquipe() {
-        // Implementar lógica
+        System.out.println(nome + " está organizando a equipe.");
     }
 
     @Override
     public void conduzirReunioes() {
-        // Implementar lógica
+        System.out.println(nome + " está conduzindo uma reunião.");
     }
 }

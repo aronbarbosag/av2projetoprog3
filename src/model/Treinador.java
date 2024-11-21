@@ -12,11 +12,11 @@ public class Treinador extends Funcionario implements Treina {
 
     @Override
     public void ensinarTecnologia() {
-        // Implementar lógica
+        System.out.println(nome + " está ensinando novas tecnologias.");
     }
 
     @Override
     public void motivarEquipe() {
-        // Implementar lógica
+        System.out.println(nome + " está motivando a equipe.");
     }
 }
